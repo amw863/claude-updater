@@ -94,13 +94,13 @@ ECC_BRANCH="main"
 launchctl list | grep claude-updater
 
 # Trigger manually
-launchctl start com.wangbang.claude-updater
+launchctl start com.xx.claude-updater
 
 # Uninstall
 ./uninstall-launchd.sh
 ```
 
-The plist is installed to `~/Library/LaunchAgents/com.wangbang.claude-updater.plist`.
+The plist is installed to `~/Library/LaunchAgents/com.xx.claude-updater.plist`.
 
 ## Logs
 
